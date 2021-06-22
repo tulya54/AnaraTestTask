@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnaraTestTask</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="user_info">Информация о пользователе</string>
+    <string name="login">Логин</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="mail">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="phone">Номер телефона</string>
+    <string name="status">Статус</string>
+    <string name="find_user">Найти пользователя</string>
+    <string name="user_add">Пользователь добавлен</string>
+    <string name="user_not_add">Пользователь не добавлен</string>
+    <string name="user_not_found">Пользователь не найден!</string>
+    <string name="enter_user_name">Введите имя пользователя</string>
+</resources>

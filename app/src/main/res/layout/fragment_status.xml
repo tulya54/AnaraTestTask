@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="@dimen/_150sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/StatusTextView"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="@+id/tvIndex3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvIndex2"
+        app:layout_constraintBottom_toBottomOf="@+id/tvIndex3"
+        android:id="@+id/tvIndex1"
+        android:text="1" />
+
+    <TextView
+        style="@style/StatusTextView"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="@+id/tvIndex3"
+        app:layout_constraintStart_toEndOf="@+id/tvIndex1"
+        app:layout_constraintEnd_toStartOf="@+id/tvIndex3"
+        app:layout_constraintBottom_toBottomOf="@+id/tvIndex3"
+        android:id="@+id/tvIndex2"
+        android:text="2"/>
+
+    <TextView
+        style="@style/StatusTextView"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvIndex2"
+        app:layout_constraintEnd_toStartOf="@+id/tvIndex4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:id="@+id/tvIndex3"
+        android:text="3"/>
+
+    <TextView
+        style="@style/StatusTextView"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="@+id/tvIndex3"
+        app:layout_constraintStart_toEndOf="@+id/tvIndex3"
+        app:layout_constraintEnd_toStartOf="@+id/tvIndex5"
+        app:layout_constraintBottom_toBottomOf="@+id/tvIndex3"
+        android:id="@+id/tvIndex4"
+        android:text="4"/>
+
+    <TextView
+        style="@style/StatusTextView"
+        tools:ignore="HardcodedText"
+        app:layout_constraintTop_toTopOf="@+id/tvIndex3"
+        app:layout_constraintStart_toEndOf="@+id/tvIndex4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tvIndex3"
+        android:id="@+id/tvIndex5"
+        android:text="5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
